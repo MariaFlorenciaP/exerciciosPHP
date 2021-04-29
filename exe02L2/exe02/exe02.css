@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch|Odibee+Sans&display=swap');
+
+body, select, input, button{
+	
+	font-family: 'Chakra Petch';
+	margin:0;
+}
+
+
+h1{
+	font-family: 'Odibee Sans', cursive;
+	text-align: center;
+	border-bottom: 5px solid #816ad6;
+	background-color: #f375b5;
+	box-shadow: 0 0 5px 5px rgba(1,1,1,0.5);
+	position: sticky; /* controla se o elemento rola com o restante do conteudo ou se permanece fixo quando o navegador mostra a barra de rolagem*/
+	top: 0;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+	margin-bottom: 30px;
+	color: #fff;
+}
+
+fieldset{
+	width: 60%;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+	border-radius: 20px;
+	background: #f7f7ee;
+	
+	margin: 20px auto;/*centralizacao do objeto na horizontal*/
+	padding: 25px;
+}
+
+/*alinhando os labels as caixas de texto*/
+label.alinha{
+
+display: inline-block; 
+width: 300px;
+
+text-align: right;
+}
+
+/*utilizando seletor de atributos no CSS*/
+
+input{
+	
+	width: 180px;
+}
+
+button{
+display: block;/*converte o button de elemento inline para bloco permitindo a centralizacao auto*/
+margin: auto;
+margin-bottom: 20px;
+height: 30px;
+font-size: 18px;
+background-color: #f375b5;
+color: #fff;
+font-weight: bold;
+box-shadow: 0 0 5px 5px rgba(1,1,1,0.5);
+border-bottom: 5px solid #816ad6;
+
+
+}
+
+legend{
+	font-weight: bold;
+	color: #fcd783;
+
+}
+
+
+
+/* p gerado automaticamente pelo php*/
+p{
+	border: 1px solid #ccc;
+	background: #f7f7ee;
+	width: 50%;
+	padding: 30px;
+	margin:30px auto;
+}
+
+/*tabela gerada automaticamente pelo php*/
+
+table{
+	width: 50%;
+	margin: 20px auto;
+	border: 1px solid #f375b5;
+	border-collapse: collapse; /*retira os espaços entre celulas de uma tabela*/
+}
+/*table data(resto das celulas) e table headers(tipo de dado que vai ter na coluna)*/
+
+td, th{
+
+	border: 1px solid #ccc;
+}
+
+th{
+	background: #f375b5;
+	color: #fff;
+
+}
+
+td{
+	text-align: center;
+	background: #f7f7ee;
+}
+
+span{
+	font-weight: bold;
+	font-style: italic;
+}
+caption{
+	font-weight:bold;
+	
+}
