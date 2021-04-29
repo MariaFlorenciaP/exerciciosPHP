@@ -1,0 +1,105 @@
+ @import url('https://fonts.googleapis.com/css?family=Chakra+Petch|Kanit&display=swap');
+
+body{
+	background: white;
+}
+body, select, input, button{
+	font-family: 'Chakra Petch', cursive;
+	font-size: 15px;
+	margin: 0;
+}
+
+h1{
+
+    font-family: 'Kanit', sans-serif;
+	font-size: 30px;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+	background: #08358A;
+	color: #fff;
+	box-shadow: 0 0 5px 1px rgba(0,0,0, 0.5);
+	margin: 0;
+	position: scroll;
+	/*controlamos se o elemento rola com o restante do conteúdo ou se permanece fixo, quando o navegador mostra a barra de rolagem*/
+	position: sticky;
+	top: 0;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+	margin-bottom: 20px;
+}
+
+fieldset {
+	width: 50%;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+	background: #ccc;
+	border-radius: 10px;
+	margin: 20px auto; /*centralização do objeto na horizontal*/
+	padding: 25px;
+}
+
+/*alinhando os label às caixas de texto*/
+label.alinha {
+	display: inline-block;
+	width: 250px;
+	text-align: right;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+
+button {
+	margin: auto;
+	display: block;
+	height: 30px;
+	font-size: 18px;
+	background-color: #4CAF50; /* Green */
+	color: white;
+	border: none;
+	border-radius: 2px;
+}
+
+p {
+	border: 1px solid #ccc;
+	background: #eee;
+	width: 50%;
+	padding: 30px;
+	margin: 30px auto;
+}
+
+legend {
+	color: white;
+	background: black;
+}
+
+/*gerada automaticamente pelo PHP*/
+table {
+	width: 50%;
+	margin: 20px auto;
+	border: 1px solid #ccc;
+	border-collapse: collapse;/*retira os espaços entre as células de uma tabelas*/
+}
+td, th {
+	border: 1px solid #f7f7ee;
+}
+td {
+	background: #fff;
+	color: black;
+	text-align: center;
+}
+
+th {
+	text-align: center;
+	background: #2f4e6f;
+	color: #fff;
+}
+
+span {
+	font-weight: bold;
+	color: #04B404;
+	font-style: italic;
+	text-decoration: underline;
+}
+caption {
+	color: #000;
+	margin-bottom: 10px;
+}
+
